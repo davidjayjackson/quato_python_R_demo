@@ -1,0 +1,16 @@
+---
+title: Analysis of MtCars Data
+author: David J Jackson
+date: 2024-01-09
+format: dashboard
+---
+## Fun With mtcars
+```{r}
+head(mtcars)
+```
+## Histogram of MPG
+
+```{r}
+hist(mtcars$mpg)
+boxplot(mtcars$mpg)
+```
